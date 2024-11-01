@@ -1,0 +1,1964 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-12-13 17:40+0100\n"
+"PO-Revision-Date: 2022-12-13 17:44+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: ;__;_e\n"
+"X-Poedit-SearchPath-0: views\n"
+"X-Poedit-SearchPath-1: components\n"
+"X-Poedit-SearchPath-2: assets\n"
+"X-Poedit-SearchPath-3: functions.php\n"
+"X-Poedit-SearchPath-4: spothit.php\n"
+"X-Poedit-SearchPath-5: class\n"
+
+#: class/SH_Administrator.php:149
+msgid "User {{user_nicename}} is just registered !"
+msgstr "L'utilisateur {{user_nicename}} vient de s'enregistrer !"
+
+#: class/SH_Administrator.php:151
+msgid "{{user_nicename}} registered a new order (id: {{data_id}})"
+msgstr ""
+"{{user_nicename}}  à enregistré une nouvelle commande (id: {{data_id}})"
+
+#: class/SH_Administrator.php:153
+msgid ""
+"Order number {{data_id}} for an amount of {{data_total}} is pending payment"
+msgstr ""
+"La commande n° {{data_id}}d'un montant total de {{data_total}}  est en "
+"attente de paiement"
+
+#: class/SH_Administrator.php:155
+msgid ""
+"Order number {{data_id}} for an amount of {{data_total}} is being processed"
+msgstr ""
+"La commande n° {{data_id}} d'un montant total de {{data_total}} est en cours "
+"de traitement"
+
+#: class/SH_Administrator.php:157
+msgid "Order number {{data_id}} for an amount of {{data_total}} is on hold !"
+msgstr ""
+"La commande n° {{data_id}} d'un montant total de {{data_total}} est en "
+"attente !"
+
+#: class/SH_Administrator.php:159
+msgid "Order number {{data_id}} for an amount of {{data_total}} is completed !"
+msgstr ""
+"La commande n° {{data_id}} d'un montant total de {{data_total}} est "
+"terminée !"
+
+#: class/SH_Administrator.php:161
+msgid "Order number {{data_id}} for an amount of {{data_total}} is cancelled !"
+msgstr ""
+"La commande n° {{data_id}} d'un montant total de {{data_total}} est annulée !"
+
+#: class/SH_Administrator.php:163
+msgid "Order number {{data_id}} for an amount of {{data_total}} is refunded !"
+msgstr ""
+"La commande n° {{data_id}}d'un montant total de {{data_total}} est "
+"remboursée !"
+
+#: class/SH_Administrator.php:165
+msgid "Order number {{data_id}} for an amount of {{data_total}} is failed !"
+msgstr ""
+"La commande n° {{data_id}} d'un montant total de {{data_total}} a échoué !"
+
+#: class/SH_Administrator.php:167
+msgid "Hello {{user_nicename}} ! Thank you for your registration !"
+msgstr "Bienvenue {{user_nicename}} ! Merci pour votre inscription !"
+
+#: class/SH_Administrator.php:169
+msgid ""
+"Hello {{user_nicename}},  your order n°{{data_id}} is registered. Thank you "
+"for your purchase !"
+msgstr ""
+"Bonjour {{user_nicename}}, votre commande n°{{data_id}} est bien "
+"enregistrée. Merci pour votre achat !"
+
+#: class/SH_Administrator.php:171
+msgid ""
+"Hello {{user_nicename}}, your order n°{{data_id}} for an amount of "
+"{{data_total}} is pending payment !"
+msgstr ""
+"Bonjour {{user_nicename}}, votre commande n°{{data_id}} d'un montant total "
+"de {{data_total}} est en attente de paiement !"
+
+#: class/SH_Administrator.php:173
+msgid ""
+"Hello {{user_nicename}}, your order n°{{data_id}} for an amount of "
+"{{data_total}} is being processed !"
+msgstr ""
+"Bonjour {{user_nicename}}, votre commande n°{{data_id}} d'un montant total "
+"de {{data_total}} est en cours de traitement !"
+
+#: class/SH_Administrator.php:175
+msgid ""
+"Hello {{user_nicename}}, your order n°{{data_id}} for an amount of "
+"{{data_total}} is on hold !"
+msgstr ""
+"Bonjour {{user_nicename}}, votre commande n°{{data_id}} d'un montant total "
+"de {{data_total}} est en attente !"
+
+#: class/SH_Administrator.php:177
+msgid ""
+"Hello {{user_nicename}}, your order n°{{data_id}} for an amount of "
+"{{data_total}} is completed !"
+msgstr ""
+"Bonjour {{user_nicename}}, votre commande n°{{data_id}} d'un montant total "
+"de {{data_total}} est complétée !"
+
+#: class/SH_Administrator.php:179
+msgid ""
+"Hello {{user_nicename}}, your order n°{{data_id}} for an amount of "
+"{{data_total}} is cancelled !"
+msgstr ""
+"Bonjour {{user_nicename}}, votre commande n°{{data_id}} d'un montant total "
+"de {{data_total}} est annulée !"
+
+#: class/SH_Administrator.php:181
+msgid ""
+"Hello {{user_nicename}}, your order n°{{data_id}} for an amount of "
+"{{data_total}} is refunded !"
+msgstr ""
+"Bonjour {{user_nicename}}, votre commande n°{{data_id}} d'un montant total "
+"de {{data_total}} est remboursée !"
+
+#: class/SH_Administrator.php:183
+msgid ""
+"Hello {{user_nicename}}, your order n°{{data_id}} for an amount of "
+"{{data_total}} is failed !"
+msgstr ""
+"Bonjour {{user_nicename}}, votre commande n°{{data_id}} d'un montant total "
+"de {{data_total}} a échoué !"
+
+#: class/SH_Administrator.php:185
+msgid "New registration"
+msgstr "Nouvelle inscription"
+
+#: class/SH_Administrator.php:187 views/automating.php:49
+msgid "New order"
+msgstr "Nouvelle commande"
+
+#: class/SH_Administrator.php:189
+msgid "Order is pending payment"
+msgstr "Commande en attente de paiement"
+
+#: class/SH_Administrator.php:191
+msgid "Order is being processed"
+msgstr "Commande en cours de traitement"
+
+#: class/SH_Administrator.php:193
+msgid "Order is on hold"
+msgstr "Une commande est en attente"
+
+#: class/SH_Administrator.php:195
+msgid "Order is completed"
+msgstr "Commande terminée"
+
+#: class/SH_Administrator.php:197
+msgid "Order is cancelled !"
+msgstr "La commande est annulée !"
+
+#: class/SH_Administrator.php:199
+msgid "Order is refunded !"
+msgstr "La commande est remboursée !"
+
+#: class/SH_Administrator.php:201
+msgid "Order is failed"
+msgstr "La commande a échoué"
+
+#: class/SH_Administrator.php:282 views/dashboard.php:51
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: class/SH_Administrator.php:290
+msgid "SMS Campaigns"
+msgstr "Campagnes SMS"
+
+#: class/SH_Administrator.php:298
+msgid "EMAIL Campaigns"
+msgstr "Campagnes EMAIL"
+
+#: class/SH_Administrator.php:308
+msgid "Automatic Campaigns"
+msgstr "Campagnes automatiques"
+
+#: class/SH_Administrator.php:318 views/settings.php:36
+msgid "Settings"
+msgstr "Paramètres"
+
+#: class/SH_Administrator.php:326 views/buy.php:36
+msgid "Buy credits"
+msgstr "Acheter des crédits"
+
+#: class/SH_Translate.php:9
+msgid "You have reached your SMS credit scale !"
+msgstr "Votre solde de crédit SMS est épuisé !"
+
+#: class/SH_Translate.php:10
+msgid "You have reached your EMAILS credit scale !"
+msgstr "Votre solde de crédit EMAIL est épuisé !"
+
+#: class/SH_Translate.php:12
+msgid "Previous step"
+msgstr "Étape précédente"
+
+#: class/SH_Translate.php:13
+msgid "Next step"
+msgstr "Étape suivante"
+
+#: class/SH_Translate.php:14 class/SH_Translate.php:124
+#: views/sms_campaign/step4.php:18
+msgid "STOP at 36200"
+msgstr "STOP au 36200"
+
+#: class/SH_Translate.php:15 class/SH_Translate.php:178
+#: class/SH_Translate.php:203
+msgid "Saved !"
+msgstr "Enregistré !"
+
+#: class/SH_Translate.php:16
+msgid "Campaign name is too long (255 characters maximum)"
+msgstr "Nom de campagne trop long (255 caractères maximum)"
+
+#: class/SH_Translate.php:17
+msgid "The campaign is sent !"
+msgstr "La campagne est envoyée !"
+
+#: class/SH_Translate.php:18
+msgid "Your sender name is too long (11 characters maximum)"
+msgstr "Votre nom d'expéditeur est trop long (11 caractères maximum)"
+
+#: class/SH_Translate.php:19
+msgid "Sender name is too short (3 characters minimum)"
+msgstr "Votre nom d'expéditeur est trop court (3 caractères minimum)"
+
+#: class/SH_Translate.php:20
+msgid "Please, complete the sender field !"
+msgstr "Merci de renseigner le nom d'expéditeur !"
+
+#: class/SH_Translate.php:21
+msgid "Please, complete the contacts field"
+msgstr "Merci de renseigner les destinataires"
+
+#: class/SH_Translate.php:22
+msgid "Please, select a contacts method"
+msgstr "Veuillez sélectionner une méthode de contenu"
+
+#: class/SH_Translate.php:23
+msgid "Select a contacts group"
+msgstr "Sélectionnez vos groupes de destinataires"
+
+#: class/SH_Translate.php:24
+msgid "Invalid contacts method"
+msgstr "Méthode de destinataire invalide"
+
+#: class/SH_Translate.php:25
+msgid "Your message is too long"
+msgstr "Votre message est trop long"
+
+#: class/SH_Translate.php:26
+msgid "Please, complete the message field"
+msgstr "Veuillez rédiger un message"
+
+#: class/SH_Translate.php:27
+msgid "Invalid message method"
+msgstr "Méthode de message invalide"
+
+#: class/SH_Translate.php:28
+msgid "Please, select date, hour and minute"
+msgstr "Veuillez sélectionner une date, une heure et une minute"
+
+#: class/SH_Translate.php:29
+msgid "Please select a date method"
+msgstr "Veuillez sélectionner une méthode pour la date"
+
+#: class/SH_Translate.php:30
+msgid "Please write an email address"
+msgstr "Veuillez renseigner une adresse Email"
+
+#: class/SH_Translate.php:31
+msgid "Invalid email address"
+msgstr "Adresse Email invalide"
+
+#: class/SH_Translate.php:32
+msgid "Please write a subject for you email"
+msgstr "Veuillez rédiger un objet pour l'Email"
+
+#: class/SH_Translate.php:33
+msgid "Please select a model for your email"
+msgstr "Veuillez sélectionner un modèle pour l'Email"
+
+#: class/SH_Translate.php:34
+msgid "Please, select a content method"
+msgstr "Veuillez sélectionner une méthode de contenu"
+
+#: class/SH_Translate.php:35
+msgid "Unspecified or incorrect message type"
+msgstr "Type de message non spécifié ou incorrect"
+
+#: class/SH_Translate.php:36
+msgid "Message is empty"
+msgstr "Le messsage est vide"
+
+#: class/SH_Translate.php:37
+msgid "The message contains more than 160 characters (70 in unicode)"
+msgstr "Le message contient plus de 160 caractères (70 en unicode)"
+
+#: class/SH_Translate.php:38
+msgid "No valid contact is specified"
+msgstr "Aucun destinataire valide n'est renseigné"
+
+#: class/SH_Translate.php:39
+msgid "Restricted number"
+msgstr "Numéro interdit"
+
+#: class/SH_Translate.php:40
+msgid "Invalid contact"
+msgstr "Destinataire non valide"
+
+#: class/SH_Translate.php:41
+msgid "Invalid contact number"
+msgstr "Numéro de téléphone invalide"
+
+#: class/SH_Translate.php:42
+msgid "Sender is invalid."
+msgstr "Expéditeur invalide."
+
+#: class/SH_Translate.php:43
+msgid "The system encountered an error, please contact us."
+msgstr "Le système a rencontré une erreur, merci de nous contacter."
+
+#: class/SH_Translate.php:44
+msgid "You do not have enough credits to send this message."
+msgstr "Vous ne disposez pas d'assez de crédits pour effectuer cet envoi."
+
+#: class/SH_Translate.php:45
+msgid "Sending messages is disabled for the demonstration."
+msgstr "L'envoi des message est désactivé pour la démonstration."
+
+#: class/SH_Translate.php:46
+msgid "Your account has been suspended. Contact us for more information"
+msgstr "Votre compte a été suspendu. Contactez-nous pour plus d'informations"
+
+#: class/SH_Translate.php:47 class/SH_Translate.php:48
+#: class/SH_Translate.php:49
+msgid ""
+"Your set sending limit has been reached. Contact us for more information."
+msgstr "Limite d'envoi. Contactez-nous pour plus d'informations."
+
+#: class/SH_Translate.php:50
+msgid ""
+"The smslongnbr parameter is not consistent with the size of the message."
+msgstr ""
+"Le paramètre \"smslongnbr\" n'est pas cohérent avec la taille du message "
+"envoyé."
+
+#: class/SH_Translate.php:51
+msgid "Sender is not authorized"
+msgstr "L'expéditeur n'est pas autorisé"
+
+#: class/SH_Translate.php:52
+msgid "EMAIL | The topic is too short."
+msgstr "EMAIL | L'objet est trop court."
+
+#: class/SH_Translate.php:53
+msgid "EMAIL | The reply email is invalid."
+msgstr "EMAIL | L'email de réponse est invalide."
+
+#: class/SH_Translate.php:54
+msgid "EMAIL | The sender name is too short."
+msgstr "EMAIL | Le nom d'expéditeur est trop court."
+
+#: class/SH_Translate.php:55
+msgid "Invalid token. Contact us for more information."
+msgstr "Token invalide. Contactez-nous pour plus d'informations."
+
+#: class/SH_Translate.php:56
+msgid "Message length not allowed. Contact us for more information."
+msgstr ""
+"Durée du message non autorisée. Contactez-nous pour plus d'informations."
+
+#: class/SH_Translate.php:57
+msgid "No valid variable date was found in your contact list."
+msgstr ""
+"Aucune date variable valide n'a été trouvée dans votre liste de "
+"destinataires."
+
+#: class/SH_Translate.php:58
+msgid "The mention \"STOP au 36200\" is missing."
+msgstr "La mention « STOP au 36200 » est requise."
+
+#: class/SH_Translate.php:59
+msgid "Staggering: empty start date"
+msgstr "Echelonnage : date de début vide"
+
+#: class/SH_Translate.php:60
+msgid "Staggering: empty end date"
+msgstr "Echelonnage : date de fin vide"
+
+#: class/SH_Translate.php:61
+msgid "Staggering: start date later than end date"
+msgstr "Echelonnage : date de début plus tard que date de fin"
+
+#: class/SH_Translate.php:62
+msgid "Staggering: no slot available"
+msgstr "Echelonnage : aucun créneau disponible"
+
+#: class/SH_Translate.php:63
+msgid "Unrecognized API key."
+msgstr "Clé API non reconnue."
+
+#: class/SH_Translate.php:64
+msgid "You cannot have emojis in your message."
+msgstr "Vous ne pouvez pas avoir d'emojis dans votre message."
+
+#: class/SH_Translate.php:65
+msgid "You must add a Stop notice to your SMS."
+msgstr "Vous devez ajouter une mention \"Stop\" à votre SMS/MMS."
+
+#: class/SH_Translate.php:66
+msgid "This product is not activated."
+msgstr "Ce produit n'est pas activé."
+
+#: class/SH_Translate.php:67
+msgid "The specified time zone is invalid."
+msgstr "Le fuseau horaire spécifié n'est pas valide."
+
+#: class/SH_Translate.php:68
+msgid "The date has already passed after calculating the time zone."
+msgstr "La date est déjà passée après calcule du fuseau horaire."
+
+#: class/SH_Translate.php:69
+msgid "You have reached the maximum limit of 50 campaigns in drafts."
+msgstr ""
+"Vous avez atteint la limite maximale de 50 campagnes en brouillons. Si vous "
+"souhaitez en ajouter plus, merci de nous contacter."
+
+#: class/SH_Translate.php:70
+msgid ""
+"We have detected a link in the content of your message, please contact our "
+"customer service to validate this sending."
+msgstr ""
+"Nous avons détecté un lien dans le contenu de votre message, merci de vous "
+"rapprocher de notre service client pour valider cet envoi."
+
+#: class/SH_Translate.php:71
+msgid "Your sending limit has been reached."
+msgstr "Votre limite d'envoi est atteinte."
+
+#: class/SH_Translate.php:72
+msgid "You have exceeded your api request limit."
+msgstr "Vous avez dépassé votre limite de requêtes api."
+
+#: class/SH_Translate.php:73
+msgid "Maintenance is scheduled for this time slot."
+msgstr "Une maintenance est prévu sur ce créneaux horaire."
+
+#: class/SH_Translate.php:74
+msgid ""
+"We have preventively blocked this campaign because it has similar "
+"characteristics to a campaign already sent."
+msgstr ""
+"Nous avons bloqué préventivement cette campagne car elle présente des "
+"caractéristiques similaires à une campagne déjà envoyée."
+
+#: class/SH_Translate.php:75
+msgid "Your account is suspended."
+msgstr "Votre compte est suspendu."
+
+#: class/SH_Translate.php:76
+msgid "Unauthorized IP."
+msgstr "IP non autorisée."
+
+#: class/SH_Translate.php:77
+msgid "Empty sender name."
+msgstr "Nom d'expéditeur vide."
+
+#: class/SH_Translate.php:78
+msgid "Please select a contacts group"
+msgstr "Veuillez sélectionner une méthode pour les destinataires"
+
+#: class/SH_Translate.php:88 class/SH_Translate.php:105
+msgid "Today"
+msgstr "Aujourd'hui"
+
+#: class/SH_Translate.php:89 class/SH_Translate.php:106
+msgid "Month"
+msgstr "Mois"
+
+#: class/SH_Translate.php:90 class/SH_Translate.php:107
+msgid "Delete"
+msgstr "Effacer"
+
+#: class/SH_Translate.php:91 class/SH_Translate.php:108
+msgid "en"
+msgstr "fr"
+
+#: class/SH_Translate.php:92 class/SH_Translate.php:109
+msgid "Email address field is empty"
+msgstr "L'adresse Email est vide"
+
+#: class/SH_Translate.php:93
+msgid "Insert your message here"
+msgstr "Rédigez votre message juste ici"
+
+#: class/SH_Translate.php:94 class/SH_Translate.php:111
+msgid "No contact group found"
+msgstr "Aucun groupe de destinataire disponible"
+
+#: class/SH_Translate.php:95
+msgid "Insert your contacts list"
+msgstr "Insérez votre liste de destinataires"
+
+#: class/SH_Translate.php:110 views/email_campaign.php:58
+#: views/email_campaign/step4.php:2
+msgid "Email content"
+msgstr "Contenu de l'Email"
+
+#: class/SH_Translate.php:113
+msgid ""
+"<p>Sender name must be a minimum of 3 characters to be personalized and must "
+"not start with more than 3 consecutive digits before the first letter.</p>\n"
+"                <p>The display of the sender name depends on the type of "
+"phone. For example, on some iPhones, spaces are removed. Moreover, accents "
+"and special characters are never show.</p>\n"
+"                <p><strong>Metropolitan France</strong></p>\n"
+"                <p>The NRJ Mobile operator does not take into account custom "
+"senders, they will be automatically replaced by a short number.\n"
+"                To avoid any confusion for your contacts, it is preferable "
+"to specify the name of your shop also in the body of the message.\n"
+"                The Free Mobile operator does not take into account sender "
+"customizations for SMS Marketing that do not include the mention STOP at "
+"36xxx.\n"
+"                They will automatically be replaced by a short number.</"
+"p><p><strong>International</strong></p><p>Some countries do not accept "
+"sender personalization.\n"
+"                It is strongly advised to contact us in order to know the "
+"specificities of each country concerned.</p>"
+msgstr ""
+"<p>L’expéditeur doit comporter un minimum de 3 caractères pour être "
+"personnalisé et ne doit pas commencer par plus de 3 chiffres consécutifs "
+"avant la première lettre.</p>\n"
+"<p>L'affichage de l'expéditeur dépend du type de téléphone. Par exemple, sur "
+"certains iPhone les espaces sont supprimés. Par ailleurs, les accents et "
+"caractères spéciaux ne sont jamais pris en compte.</p>\n"
+"<p><strong>France métropolitaine</strong></p>\n"
+"<p>L'opérateur NRJ Mobile ne prend pas en compte les expéditeurs "
+"personnalisés, ils seront automatiquement remplacés par un numéro court. "
+"Afin d'éviter toute confusion pour vos destinataires, il est préférable de "
+"préciser le nom de votre boutique également dans le corps du message.\n"
+"\n"
+"</p><p><strong>International</strong></p><p>\n"
+"Certains pays n'acceptent pas la personnalisation de l'expéditeur. Il est "
+"fortement conseillé de prendre contact avec nous afin de connaître les "
+"spécificités de chaque pays concerné.\n"
+"Les destinataires ne pourront pas répondre au SMS lors d'envois hors France "
+"& DOM-TOM.</p>"
+
+#: class/SH_Translate.php:123
+msgid "Send now"
+msgstr "Envoyer maintenant"
+
+#: class/SH_Translate.php:125
+msgid "Please separate phone numbers with a \",\" or a line break."
+msgstr "Merci de séparer les numéros par une virgule ou un passage à la ligne."
+
+#: class/SH_Translate.php:126
+msgid "Example : +33600000000,003360-00-00-00 , 6 00 00 00 00."
+msgstr "Exemple : +33600000000,003360-00-00-00 , 6 00 00 00 00."
+
+#: class/SH_Translate.php:127
+msgid "Insert your contacts list here"
+msgstr "Insérez votre liste de destinataires"
+
+#: class/SH_Translate.php:137
+msgid "Key parameters"
+msgstr "Paramètres de la clé API"
+
+#: class/SH_Translate.php:138
+msgid "SMS parameters"
+msgstr "Paramètres SMS"
+
+#: class/SH_Translate.php:139
+msgid "Emails parameters"
+msgstr "Paramètres Emails"
+
+#: class/SH_Translate.php:140
+msgid "Alerts parameters"
+msgstr "Paramètres des alertes"
+
+#: class/SH_Translate.php:141
+msgid "Invalid API key"
+msgstr "Clé API invalide"
+
+#: class/SH_Translate.php:142
+msgid "Please insert your new API key"
+msgstr "Veuillez renseigner votre clé API"
+
+#: class/SH_Translate.php:143
+msgid "Invalid phone number"
+msgstr "Numéro de téléphone invalide"
+
+#: class/SH_Translate.php:144
+msgid "Sender name is too long"
+msgstr "Nom d'expéditeur trop long"
+
+#: class/SH_Translate.php:145
+msgid "Sender name is too short"
+msgstr "Nom d'expéditeur trop court"
+
+#: class/SH_Translate.php:146
+msgid "Incorrect Email address"
+msgstr "Adresse Email invalide"
+
+#: class/SH_Translate.php:147
+msgid "Incorrect sender name"
+msgstr "Nom d'expéditeur invalide"
+
+#: class/SH_Translate.php:148
+msgid "Email parameters are saved !"
+msgstr "Paramètres Emails  enregistrés !"
+
+#: class/SH_Translate.php:149
+msgid "SMS parameters are saved !"
+msgstr "Paramètres SMS  enregistrés !"
+
+#: class/SH_Translate.php:150
+msgid "Invalid contact email address"
+msgstr "Adresse Email invalide"
+
+#: class/SH_Translate.php:151
+msgid ""
+"Changing your key does not change previous datas in any way recorded. If you "
+"wantto edit your informations, please refer to the SMS & Email settings."
+msgstr ""
+"Modifier la clé API n'efface pas vos paramètres par défaut actuels. Pour "
+"modifier ces informations, rendez-vous dans l'onglet Paramètres SMS/EMAILS."
+
+#: class/SH_Translate.php:152
+msgid ""
+"You can change your sender name directly for all of your SMS campaigns "
+"(including automatic campaigns) by editing the fields below."
+msgstr ""
+"Vous pouvez modifier le nom d'expéditeur pour l'ensemble de vos campagnes "
+"SMS, dont les campagnes automatiques, en éditant les champs ci-dessous."
+
+#: class/SH_Translate.php:153
+msgid ""
+"Into the Email settings you can set your sender name and your email address "
+"for all email campaigns, including for automatic campaigns."
+msgstr ""
+"Dans vos paramètres Email, vous pouvez modifier votre nom d'expéditeur et "
+"votre adresse Email pour vos campagnes."
+
+#: class/SH_Translate.php:154
+msgid ""
+"An alert will be sent to you according to the scale you have defined. You "
+"can enable or disable these alerts."
+msgstr ""
+"Une alerte vous sera envoyé lorsque vous atteindrez chacun des paliers "
+"paramétrés. Vous pouvez activer ou désactiver les alertes."
+
+#: class/SH_Translate.php:155
+msgid "Invalid site key"
+msgstr "Clé du site invalide"
+
+#: class/SH_Translate.php:156
+msgid "Invalid secret key"
+msgstr "Clé secrète invalide"
+
+#: class/SH_Translate.php:157
+msgid "Key is updated"
+msgstr "Les clés sont mises à jour"
+
+#: class/SH_Translate.php:158
+msgid "Group is updated"
+msgstr "Le groupe est mis à jour"
+
+#: class/SH_Translate.php:159
+msgid "Group cannot be updated"
+msgstr "Le groupe ne peut être mis à jour"
+
+#: class/SH_Translate.php:160
+msgid "Select group"
+msgstr "Sélectionnez un groupe"
+
+#: class/SH_Translate.php:161
+msgid "Write group name..."
+msgstr "Nommez le groupe..."
+
+#: class/SH_Translate.php:172
+msgid "Empty message field"
+msgstr "Le message est vide"
+
+#: class/SH_Translate.php:173
+msgid "Empty email subject"
+msgstr "L'objet de l'Email est vide"
+
+#: class/SH_Translate.php:174
+msgid "Invalid Email address"
+msgstr "Adresse Email invalide"
+
+#: class/SH_Translate.php:175
+msgid "Sender name is too short (min. 3 characters)"
+msgstr "Nom d'expéditeur trop court (3 caractères minimum)"
+
+#: class/SH_Translate.php:176
+msgid "Your message is too short"
+msgstr "Le message est trop court"
+
+#: class/SH_Translate.php:177
+msgid "Sender name is too long (max. 11 characters)"
+msgstr "Nom d'expéditeur trop long (11 caractères minimum)"
+
+#: class/SH_Translate.php:179
+msgid ""
+"<p><strong>Important :</strong></p><p>Variables that we propose to you may "
+"not be functional. Indeed, depending on the configuration of your store, "
+"some variables may return an empty result. You are strongly advised to carry "
+"out tests before use.</p>"
+msgstr ""
+"<p><strong>Attention :</strong></p><p>Il est possible que certaines "
+"variables renvoient un contenu vide. Nous vous recommandons d'effectuer des "
+"essais avant utilisation.</p>"
+
+#: class/SH_Translate.php:189
+msgid "Correct API key, you will be redirected..."
+msgstr "Connexion réussie ! Veuillez patienter, vous allez être redirigé..."
+
+#: class/SH_Translate.php:190
+msgid "Please insert your API key"
+msgstr "Veuillez renseigner votre clé API"
+
+#: class/SH_Translate.php:198
+msgid "Firstname is not valid"
+msgstr "Le prénom n'est pas correct"
+
+#: class/SH_Translate.php:199
+msgid "Lastname is not valid"
+msgstr "Le nom n'est pas correct"
+
+#: class/SH_Translate.php:200
+msgid "Phone number is not valid"
+msgstr "Numéro de téléphone invalide"
+
+#: class/SH_Translate.php:201
+msgid "Email address is not valid"
+msgstr "Adresse Email invalide"
+
+#: class/SH_Translate.php:202
+msgid "Please confirm captcha"
+msgstr "Merci de confirmer le captcha"
+
+#: class/SH_Translate.php:204 functions.php:1178 functions.php:1195
+msgid "Error"
+msgstr "Erreur"
+
+#: components/confirmation.php:4
+msgid "Campaign confirmation"
+msgstr "Confirmation de la campagne"
+
+#: components/confirmation.php:7
+msgid "Do you confirm the sending of the campaign ?"
+msgstr "Voulez vous envoyer cette campagne ?"
+
+#: components/confirmation.php:10 views/automating.php:314
+msgid "Cancel"
+msgstr "Annuler"
+
+#: components/confirmation.php:11 views/email_campaign.php:99
+#: views/sms_campaign.php:96
+msgid "Send"
+msgstr "Envoyer"
+
+#: components/header.php:55
+msgid "Manual campaigns"
+msgstr "Campagnes manuelles"
+
+#: components/header.php:63 views/automating.php:159
+msgid "Automatic campaigns"
+msgstr "Campagnes automatiques"
+
+#: components/header.php:103
+msgid ""
+"Warning, your credit balance has expired. Automatic campaigns will not be "
+"sent."
+msgstr ""
+"Attention, vous n'avez plus de crédit. Vous ne pouvez plus envoyer de SMS ou "
+"d'Emails."
+
+#: components/header.php:106
+msgid ""
+"Warning, SMS credits and EMAIL credits are low. In case you have no more "
+"credit, the automatic campaigns will not be sent."
+msgstr ""
+"Attention, il vous reste peu de crédits SMS et Emails. Dans le cas où vous "
+"vous n'avez plus de crédits, les campagnes automatiques ne pourront être "
+"envoyées."
+
+#: components/header.php:109
+msgid ""
+"Warning, you don't have credits for sending SMS. Automatic campaigns will "
+"not be sent."
+msgstr ""
+"Attention, vous n'avez plus de crédit SMS. Les SMS des campagnes "
+"automatiques ne pourront être envoyées."
+
+#: components/header.php:112
+msgid ""
+"Warning, you don't have credits for sending Emails. Automatic campaigns will "
+"not be sent."
+msgstr ""
+"Attention, vous n'avez plus de crédit pour les Emails. Les mails des "
+"campagnes automatiques ne pourront être envoyées."
+
+#: components/loader.php:30
+msgid "Online sending platform"
+msgstr "Plateforme d'envoi en ligne"
+
+#: components/loader.php:33
+msgid "100% multicanal"
+msgstr "100% multicanal"
+
+#: components/loader.php:37
+msgid "Loading..."
+msgstr "Chargement..."
+
+#: functions.php:248
+msgid "You are logged ! Please wait, you will be redirected"
+msgstr "Connexion réussie ! Veuillez patienter, vous allez être redirigé"
+
+#: functions.php:251
+msgid "API key cannot be registred"
+msgstr "La clé API n'est pas reconnue"
+
+#: functions.php:309
+msgid "Please write your key in the field"
+msgstr "Merci d'inscrire une clé API"
+
+#: functions.php:351
+msgid "API key has been changed !"
+msgstr "La clé a été mise à jour !"
+
+#: functions.php:354
+msgid "Unable to save API key !"
+msgstr "Impossible d'enregistrer la clé !"
+
+#: functions.php:358
+msgid "Invalide API key !"
+msgstr "Clé API invalide !"
+
+#: functions.php:1147
+msgid "Campaign: "
+msgstr "Campagne: "
+
+#: functions.php:1149
+msgid "Campaign not found"
+msgstr "Campagne inexistante"
+
+#: functions.php:1153
+msgid "contacts"
+msgstr "contacts"
+
+#: functions.php:1155 views/email_campaign/step6.php:27
+#: views/sms_campaign/step6.php:10 views/sms_campaign/step6.php:30
+msgid "contact"
+msgstr "contact"
+
+#: functions.php:1157
+msgid "No contact"
+msgstr "Aucun contact"
+
+#: functions.php:1162
+msgid "Pending"
+msgstr "En attente"
+
+#: functions.php:1166
+msgid "In progress"
+msgstr "En cours"
+
+#: functions.php:1170
+msgid "Success"
+msgstr "Livrée"
+
+#: functions.php:1174 functions.php:1195 views/automating.php:77
+msgid "Failed"
+msgstr "Échoué"
+
+#: functions.php:1323 functions.php:1331
+msgid "User ID"
+msgstr "ID de l'utilisateur"
+
+#: functions.php:1324
+msgid "User nickname"
+msgstr "Pseudo de l'utilisateur"
+
+#: functions.php:1325
+msgid "User email"
+msgstr "Email de l'utilisateur"
+
+#: functions.php:1326
+msgid "Username"
+msgstr "Nom de l'utilisateur"
+
+#: functions.php:1330
+msgid "Order ID"
+msgstr "ID de la commande"
+
+#: functions.php:1332
+msgid "Order status"
+msgstr "Status de la commande"
+
+#: functions.php:1333
+msgid "Total - Discounts"
+msgstr "Total - Réductions"
+
+#: functions.php:1334
+msgid "Total - Shipping"
+msgstr "Total - Livraison"
+
+#: functions.php:1335
+msgid "Total - Order"
+msgstr "Total de la commande"
+
+#: functions.php:1336
+msgid "Payment method"
+msgstr "Méthode de paiement"
+
+#: functions.php:1337
+msgid "Currency"
+msgstr "Devise"
+
+#: functions.php:1339
+msgid "Billing name"
+msgstr "Nom de facturation"
+
+#: functions.php:1340
+msgid "Billing first name"
+msgstr "Prénom de facturation"
+
+#: functions.php:1341
+msgid "Billing address 1"
+msgstr "Adresse 1 de facturation"
+
+#: functions.php:1342
+msgid "Billing address 2"
+msgstr "Adresse 2 de facturation"
+
+#: functions.php:1343
+msgid "Billing city"
+msgstr "Ville de facturation"
+
+#: functions.php:1344
+msgid "Billing postcode"
+msgstr "Code postal de facturation"
+
+#: functions.php:1345
+msgid "Billing country"
+msgstr "Pays de facturation"
+
+#: functions.php:1346
+msgid "Billing email"
+msgstr "Email de facturation"
+
+#: functions.php:1347
+msgid "Billing telephone number"
+msgstr "Numéro de téléphone de facturation"
+
+#: functions.php:1349
+msgid "Recipient name"
+msgstr "Nom du destinataire"
+
+#: functions.php:1350
+msgid "Recipient first Name"
+msgstr "Prénom du destinataire"
+
+#: functions.php:1351
+msgid "Recipient address 1"
+msgstr "Adresse 1 du destinataire"
+
+#: functions.php:1352
+msgid "Recipient address 2"
+msgstr "Adresse 2 du destinataire"
+
+#: functions.php:1353
+msgid "Recipient city"
+msgstr "Ville du destinataire"
+
+#: functions.php:1354
+msgid "Recipient postcode"
+msgstr "Code postal du destinataire"
+
+#: functions.php:1355
+msgid "Recipient country"
+msgstr "Ville du destinataire"
+
+#: functions.php:1357
+msgid "Total of selected products"
+msgstr "Nombre total de produits selectionnés"
+
+#: functions.php:1358
+msgid "Total of products purchased"
+msgstr "Nombre total de produits commandés"
+
+#: functions.php:1359
+msgid ""
+"List of product names with quantity (example : First product x 2, Second "
+"product x 1, Third product x 1)"
+msgstr ""
+"Liste des noms de produits avec quantité (exemple : Premier article x 2, "
+"Second article x 1, Troisième article x 1)"
+
+#: functions.php:1360
+msgid "List of product ID (example : 22, 107, 35)"
+msgstr "Liste des ID de produits (exemple : 22, 107, 35)"
+
+#: functions.php:1361
+msgid ""
+"List of product names (example : First product, Second product, Third "
+"product)"
+msgstr ""
+"Liste des noms de produits(exemple : Premier article , Second article , "
+"Troisième article)"
+
+#: spothit.php:185
+msgid "Unable to establish connection with spot-hit!"
+msgstr "Impossible d'établir une connexion avec spot-hit !"
+
+#: spothit.php:297
+msgid "Fatal error: Spot-Hit plugin database could not be generated !"
+msgstr "Fatal error: La base de données n'a pas pu être générée !"
+
+#: spothit.php:361
+msgid ""
+"Please note that your PHP version is lower than version 7. The plugin may "
+"not work correctly."
+msgstr ""
+
+#: spothit.php:374
+msgid ""
+"Please note that your Wordpress version is lower than version 6. The plugin "
+"may not work correctly."
+msgstr ""
+
+#: views/automating.php:45
+msgid "New customer"
+msgstr "Nouvelle inscription"
+
+#: views/automating.php:46
+msgid "A new user has registered"
+msgstr "Enregistrement d'un nouvel utilisateur"
+
+#: views/automating.php:50
+msgid "A new order has been registered"
+msgstr "Enregistrement d'une nouvelle commande"
+
+#: views/automating.php:53
+msgid "Pending payment"
+msgstr "En attente de paiement"
+
+#: views/automating.php:54
+msgid "The order is awaiting payment"
+msgstr "Une commande est en attente de paiement"
+
+#: views/automating.php:57
+msgid "Processing"
+msgstr "En cours"
+
+#: views/automating.php:58
+msgid "The order is being processed"
+msgstr "Une commande est en cours"
+
+#: views/automating.php:61
+msgid "On hold"
+msgstr "En attente"
+
+#: views/automating.php:62
+msgid "The order is on hold"
+msgstr "Une commande est en attente"
+
+#: views/automating.php:65
+msgid "Completed"
+msgstr "Terminée"
+
+#: views/automating.php:66
+msgid "The order is completed"
+msgstr "Une commande est terminée"
+
+#: views/automating.php:69
+msgid "Cancelled"
+msgstr "Annulée"
+
+#: views/automating.php:70
+msgid "The order is cancelled"
+msgstr "Une commande est annulée"
+
+#: views/automating.php:73
+msgid "Refounded"
+msgstr "Remboursée"
+
+#: views/automating.php:74
+msgid "The order is refunded"
+msgstr "Une commande est remboursée"
+
+#: views/automating.php:78
+msgid "The order is failed"
+msgstr "Une commande a échoué"
+
+#: views/automating.php:168
+msgid "Campaign management for admin"
+msgstr "Gestion des campagnes pour l'administrateur"
+
+#: views/automating.php:176
+msgid "Campaign management for customers"
+msgstr "Gestion des campagnes pour les clients"
+
+#: views/automating.php:189
+msgid "Hook name"
+msgstr "Nom du crochet"
+
+#: views/automating.php:200
+msgid "SMS campaign"
+msgstr "Campagne SMS"
+
+#: views/automating.php:206 views/automating.php:224
+#: views/settings/alerts.php:47
+msgid "Yes"
+msgstr "Oui"
+
+#: views/automating.php:209 views/automating.php:227
+#: views/settings/alerts.php:49
+msgid "No"
+msgstr "Non"
+
+#: views/automating.php:218
+msgid "Email campaign"
+msgstr "Campagne EMAIL"
+
+#: views/automating.php:237 views/email_campaign/step2.php:12
+#: views/settings/email.php:5 views/settings/email.php:12
+#: views/settings/sms.php:5 views/settings/sms.php:12
+#: views/sms_campaign/step2.php:15
+msgid "Sender name"
+msgstr "Nom d'expéditeur"
+
+#: views/automating.php:246
+msgid "Custom Email address"
+msgstr "Adresse Email personnalisée"
+
+#: views/automating.php:251 views/settings/email.php:29
+#: views/settings/email.php:47
+msgid "Email address"
+msgstr "Adresse Email"
+
+#: views/automating.php:258 views/automating.php:262
+#: views/email_campaign/step1.php:14
+msgid "Email subject"
+msgstr "Objet de l'Email"
+
+#: views/automating.php:269
+msgid "Write your message in this field"
+msgstr "Redigez votre message dans ce champ"
+
+#: views/automating.php:274
+msgid "STOP SMS 36200"
+msgstr "STOP SMS 36200"
+
+#: views/automating.php:289
+msgid "characters"
+msgstr "caractères"
+
+#: views/automating.php:296
+msgid "Insert variable"
+msgstr "Insérez une variable"
+
+#: views/automating.php:299
+msgid "Select a variable"
+msgstr "Sélectionnez une variable"
+
+#: views/automating.php:304
+msgid "Important informations"
+msgstr "Informations importantes"
+
+#: views/automating.php:316 views/settings/api.php:26
+#: views/settings/email.php:77 views/settings/sms.php:55
+msgid "Save"
+msgstr "Enregistrer"
+
+#: views/buy.php:65
+msgid "Enter"
+msgstr "Insérez"
+
+#: views/buy.php:65
+msgid "your volume"
+msgstr "votre volume"
+
+#: views/buy.php:75
+msgid "Volume"
+msgstr "Volume"
+
+#: views/buy.php:107 views/buy.php:119 views/buy.php:150 views/buy.php:162
+#: views/buy.php:236 views/buy.php:265
+msgid "from"
+msgstr "de"
+
+#: views/buy.php:108 views/buy.php:120 views/buy.php:151 views/buy.php:163
+#: views/buy.php:236 views/buy.php:266
+msgid "to"
+msgstr "à"
+
+#: views/buy.php:132 views/buy.php:175 views/buy.php:295
+msgid "more than"
+msgstr "plus de"
+
+#: views/buy.php:192 views/buy.php:214 views/buy.php:330 views/buy.php:349
+msgid "escl. vat."
+msgstr "HT"
+
+#: views/buy.php:197 views/buy.php:337 views/buy.php:356
+msgid "Add to cart"
+msgstr "Ajouter au panier"
+
+#: views/buy.php:213
+msgid "Prices"
+msgstr "Tarifs"
+
+#: views/dashboard.php:37
+msgid "Automatic campaigns management "
+msgstr "Gestion des campagnes automatiques "
+
+#: views/dashboard.php:61
+msgid "Welcome "
+msgstr "Bienvenue "
+
+#: views/dashboard.php:68
+msgid "New SMS campaign"
+msgstr "Nouvelle campagne SMS"
+
+#: views/dashboard.php:72
+msgid "New EMAIL campaign"
+msgstr "Nouvelle campagne EMAIL"
+
+#: views/dashboard.php:77
+msgid "Automatic campaigns management"
+msgstr "Gestion des campagnes automatiques"
+
+#: views/dashboard.php:95 views/dashboard.php:120
+msgid "Your credits"
+msgstr "Vos crédits"
+
+#: views/dashboard.php:103
+msgid "You have no credits"
+msgstr "Vous n'avez plus de crédit"
+
+#: views/dashboard.php:109
+msgid "Click here to buy"
+msgstr "Cliquez ici pour acheter des crédits"
+
+#: views/dashboard.php:145
+msgid "Buy more credits"
+msgstr "Acheter des crédits"
+
+#: views/dashboard.php:156
+msgid "Latest campaigns"
+msgstr "Dernières campagnes"
+
+#: views/dashboard.php:169
+msgid "Show all campaigns"
+msgstr "Toutes les campagnes"
+
+#: views/email_campaign.php:29
+msgid "Manual EMAIL campaign"
+msgstr "Campagne EMAIL manuelle"
+
+#: views/email_campaign.php:43 views/email_campaign/step1.php:2
+#: views/sms_campaign.php:39 views/sms_campaign/step1.php:2
+msgid "Campaign"
+msgstr "Campagne"
+
+#: views/email_campaign.php:48 views/email_campaign/step2.php:2
+#: views/email_campaign/step2.php:11 views/email_campaign/step6.php:20
+#: views/sms_campaign.php:44 views/sms_campaign/step2.php:2
+#: views/sms_campaign/step6.php:24
+msgid "Sender"
+msgstr "Expéditeur"
+
+#: views/email_campaign.php:53 views/email_campaign/step3.php:2
+#: views/email_campaign/step6.php:26 views/sms_campaign.php:49
+#: views/sms_campaign/step3.php:2 views/sms_campaign/step6.php:29
+msgid "Contacts"
+msgstr "Contacts"
+
+#: views/email_campaign.php:63 views/email_campaign/step5.php:2
+#: views/sms_campaign.php:59 views/sms_campaign/step5.php:3
+msgid "Date"
+msgstr "Date"
+
+#: views/email_campaign.php:68 views/email_campaign/step6.php:2
+#: views/sms_campaign.php:64 views/sms_campaign/step6.php:2
+msgid "Confirmation"
+msgstr "Confirmation"
+
+#: views/email_campaign.php:121
+msgid "From"
+msgstr "De"
+
+#: views/email_campaign.php:125
+msgid "Subject"
+msgstr "Objet"
+
+#: views/email_campaign/step1.php:11
+msgid "About the campaign"
+msgstr "À propos de la campagne"
+
+#: views/email_campaign/step1.php:12 views/sms_campaign/step1.php:7
+msgid "Campaign name"
+msgstr "Nom de la campagne"
+
+#: views/email_campaign/step1.php:13
+msgid "The campaign name is optional, it is not visible to contacts."
+msgstr ""
+"Le nom de la campagne est facultatif, il n'est pas visible par vos "
+"destinataires."
+
+#: views/email_campaign/step1.php:15
+msgid ""
+"The subject is the first element visible to your contacts in their mailboxes."
+msgstr ""
+"L'objet de l'Email est le premier élément visible par vos destinataires dans "
+"leur boites e-mails."
+
+#: views/email_campaign/step2.php:14
+msgid "Sender email address"
+msgstr "Adresse Email de l'expéditeur"
+
+#: views/email_campaign/step2.php:20
+msgid "Set this sender name as default"
+msgstr "Définir ce nom d'expéditeur par défaut"
+
+#: views/email_campaign/step2.php:23
+msgid "Set this address as default"
+msgstr "Définir cette adresse par défaut"
+
+#: views/email_campaign/step2.php:26
+msgid ""
+"We are using optimized domain names for optimum reception to mailbox "
+"providers (Outlook, Hotmail, Gmail...)."
+msgstr ""
+"Les différents noms de domaine que nous utilisons sont optimisés pour une "
+"réception optimale vers tous les fournisseurs de boites e-mails (Outlook, "
+"Hotmail, Gmail...)."
+
+#: views/email_campaign/step2.php:28
+msgid "They are the 3 areas we using :"
+msgstr ""
+"Vous trouverez ci-dessous les 3 domaines que nous utilisons pour router vos "
+"campagnes :"
+
+#: views/email_campaign/step2.php:30
+msgid "@n1xmail.com<br>@m1xmail.com<br>@m2xmail.com<br>"
+msgstr "@n1xmail.com<br>@m1xmail.com<br>@m2xmail.com<br>"
+
+#: views/email_campaign/step2.php:35
+msgid "Show more"
+msgstr "Afficher plus"
+
+#: views/email_campaign/step3.php:13 views/sms_campaign/step3.php:13
+msgid "Wordpress"
+msgstr "Wordpress"
+
+#: views/email_campaign/step3.php:14
+msgid "Select contacts"
+msgstr "Sélectionnez les contacts"
+
+#: views/email_campaign/step3.php:15
+msgid "in your Wordpress users list"
+msgstr "dans votre liste d'utilisateurs Wordpress"
+
+#: views/email_campaign/step3.php:25 views/sms_campaign/step3.php:25
+msgid "Spot-Hit"
+msgstr "Spot-Hit"
+
+#: views/email_campaign/step3.php:26 views/sms_campaign/step3.php:14
+#: views/sms_campaign/step3.php:26
+msgid "Select contacts groups"
+msgstr "Sélectionnez vos groupes de destinataires"
+
+#: views/email_campaign/step3.php:27
+msgid "in your Spot-Hit users list"
+msgstr "dans votre liste de destinataires Spot-Hit"
+
+#: views/email_campaign/step3.php:38 views/sms_campaign/step3.php:38
+msgid "Custom list"
+msgstr "Liste personnalisée"
+
+#: views/email_campaign/step3.php:39
+msgid "Write your own contacts list"
+msgstr "Insérez votre liste de destinataires"
+
+#: views/email_campaign/step3.php:46 views/sms_campaign/step3.php:46
+msgid "Select an option"
+msgstr "Sélectionnez une option"
+
+#: views/email_campaign/step4.php:13
+msgid "Write an Email"
+msgstr "Rédigez un Email"
+
+#: views/email_campaign/step4.php:23
+msgid "Use a model"
+msgstr "Utiliser un modèle"
+
+#: views/email_campaign/step5.php:13 views/email_campaign/step6.php:33
+#: views/sms_campaign/step5.php:13 views/sms_campaign/step6.php:36
+msgid "Immediate"
+msgstr "Immédiat"
+
+#: views/email_campaign/step5.php:14
+msgid "Email will be sent directly after your campaign validation"
+msgstr "L'Email sera envoyé immédiatement après la confirmation de la campagne"
+
+#: views/email_campaign/step5.php:24
+msgid "Custom date"
+msgstr "Programmer maintenant"
+
+#: views/email_campaign/step5.php:25
+msgid "Select a date and time for sending"
+msgstr "Sélectionnez une date d'envoi"
+
+#: views/email_campaign/step5.php:28 views/sms_campaign/step5.php:28
+msgid "Day"
+msgstr "Jour"
+
+#: views/email_campaign/step5.php:34 views/sms_campaign/step5.php:34
+msgid "Hour"
+msgstr "Heure"
+
+#: views/email_campaign/step6.php:21
+msgid "Email address is empty"
+msgstr "L'adresse Email est vide"
+
+#: views/email_campaign/step6.php:32 views/sms_campaign/step6.php:35
+msgid "Sending date"
+msgstr "Date d'envoi"
+
+#: views/login.php:44
+msgid "Login"
+msgstr "Déjà membre ?"
+
+#: views/login.php:50
+msgid "Insert your API key"
+msgstr "Saisissez votre clé API"
+
+#: views/login.php:53 views/settings/api.php:23
+msgid "You don't know your key ?"
+msgstr "Vous ne connaissez pas votre clé ?"
+
+#: views/login.php:56
+msgid "Submit"
+msgstr "Valider"
+
+#: views/login.php:63
+msgid "You are not registered yet ?"
+msgstr "Pas encore enregistré ?"
+
+#: views/login.php:65
+msgid "Join us !"
+msgstr "Rejoignez-nous !"
+
+#: views/settings.php:52
+msgid "API key setting"
+msgstr "Paramètres de la clé API"
+
+#: views/settings.php:62
+msgid "SMS setting"
+msgstr "Paramètres des SMS"
+
+#: views/settings.php:72
+msgid "EMAIL setting"
+msgstr "Paramètres des Emails"
+
+#: views/settings.php:82
+msgid "Alerts setting"
+msgstr "Paramètres des alertes"
+
+#: views/settings.php:92
+msgid "Widget setting"
+msgstr "Paramètres du widget"
+
+#: views/settings.php:122
+msgid ""
+"You can set your default sender name, default address for sent and recieve "
+"Emails, including for automatic campaigns."
+msgstr ""
+"Dans vos paramètres Emails, vous pouvez modifier votre nom d'expéditeur "
+"ainsi que votre adresse Email d'envoi et de réception."
+
+#: views/settings/alerts.php:4
+msgid "Scales for alerts"
+msgstr "Seuil d'alertes"
+
+#: views/settings/alerts.php:11
+msgid "SMS alerts"
+msgstr "Alertes SMS"
+
+#: views/settings/alerts.php:25
+msgid "Email alerts"
+msgstr "Alertes Email"
+
+#: views/settings/alerts.php:40
+msgid "Enable alerts ?"
+msgstr "Activer les alertes ?"
+
+#: views/settings/api.php:5
+msgid "API key"
+msgstr "Clé API"
+
+#: views/settings/api.php:9
+msgid "Current API key is"
+msgstr "La clé API actuelle est"
+
+#: views/settings/api.php:15
+msgid "Update API key"
+msgstr "Mettre à jour la clé"
+
+#: views/settings/api.php:19
+msgid "Write your new API key"
+msgstr "Insérez votre clé API"
+
+#: views/settings/email.php:9
+msgid "Change default sender name for all sent Emails"
+msgstr "Modifier le nom d'expéditeur pour l'ensemble des Emails"
+
+#: views/settings/email.php:15 views/settings/sms.php:15
+msgid "Your sender name..."
+msgstr "Votre nom d'expéditeur..."
+
+#: views/settings/email.php:22
+msgid "Receiving email address"
+msgstr "Adresse Email de réception"
+
+#: views/settings/email.php:26
+msgid "Change the Email address on which you will receive messages"
+msgstr "Modifier l'adresse sur laquelle vous souhaitez recevoir les Emails"
+
+#: views/settings/email.php:32
+msgid "Your Email address to receive emails..."
+msgstr "Votre adresse Email pour recevoir les Emails..."
+
+#: views/settings/email.php:40
+msgid "Sending Email address"
+msgstr "Adresse Email de l'expéditeur"
+
+#: views/settings/email.php:44
+msgid "Change the Email address on which you will sent Emails"
+msgstr "Modifier l'adresse Email avec laquelle les Email seront envoyés"
+
+#: views/settings/email.php:51
+msgid "Your Email address to send emails..."
+msgstr "Votre adresse Email pour envoyer les Emails..."
+
+#: views/settings/email.php:62 views/settings/sms.php:40
+msgid "Apply to all automatic campaigns"
+msgstr "Appliquer aux campagnes automatiques"
+
+#: views/settings/sms.php:9
+msgid "Change sender name for all sent SMS"
+msgstr "Modifier le nom d'utilisateur pour l'ensemble des envois SMS"
+
+#: views/settings/sms.php:17
+msgid "11 characters max."
+msgstr "11 caractères max."
+
+#: views/settings/sms.php:23
+msgid "Telephone number"
+msgstr "Numéro de téléphone"
+
+#: views/settings/sms.php:27
+msgid "Change the phone number on which you will receive messages"
+msgstr ""
+"Modifier le numéro de téléphone sur lequel vous souhaitez recevoir les SMS"
+
+#: views/settings/sms.php:30 views/settings/sms.php:33
+msgid "Your telephone number"
+msgstr "Votre numéro de téléphone"
+
+#: views/settings/widgets.php:45
+msgid "No group selected"
+msgstr "Aucun groupe selectionné"
+
+#: views/settings/widgets.php:54
+msgid "Captcha"
+msgstr "Captcha"
+
+#: views/settings/widgets.php:58
+msgid "Configure the captcha of the widget to protect you from spam"
+msgstr "Configurez le captcha du widget pour vous protéger du spam"
+
+#: views/settings/widgets.php:62
+msgid "Site key"
+msgstr "Clé du site"
+
+#: views/settings/widgets.php:65
+msgid "Captcha site key..."
+msgstr "Clé captcha du site..."
+
+#: views/settings/widgets.php:70
+msgid "Secret key"
+msgstr "Clé secrète"
+
+#: views/settings/widgets.php:73
+msgid "Captcha secret key..."
+msgstr "Clé captcha secrète"
+
+#: views/settings/widgets.php:78
+msgid "Administration panel of your Google captcha keys"
+msgstr "Panneau d'administration de vos clés captcha"
+
+#: views/settings/widgets.php:84
+msgid "Save captcha settings"
+msgstr "Enregistrer les paramètres du captcha"
+
+#: views/settings/widgets.php:92
+msgid "Contact reception group"
+msgstr "Groupes de récéption"
+
+#: views/settings/widgets.php:96
+msgid "Select or create the group in which the contacts will be saved"
+msgstr ""
+"Sélectionnez ou créez le groupe dans lequel les contacts seront sauvegardés"
+
+#: views/settings/widgets.php:101
+msgid "Current group"
+msgstr "Groupe selectionné"
+
+#: views/settings/widgets.php:111
+msgid "Select from groups"
+msgstr "Sélectionnez un groupe"
+
+#: views/settings/widgets.php:121
+msgid "Create new group"
+msgstr "Créer un nouveau groupe"
+
+#: views/settings/widgets.php:139
+msgid "Save group settings"
+msgstr "Enregistrer les paramètres du groupe"
+
+#: views/sms_campaign.php:27
+msgid "Manual SMS campaign"
+msgstr "Campagne SMS manuelle"
+
+#: views/sms_campaign.php:54 views/sms_campaign/step4.php:2
+msgid "Message"
+msgstr "Message"
+
+#: views/sms_campaign/step1.php:8
+msgid "Not visible to contacts"
+msgstr "Non visible par les destinataires"
+
+#: views/sms_campaign/step2.php:13
+msgid "Custom sender"
+msgstr "Expéditeur personnalisé"
+
+#: views/sms_campaign/step2.php:16
+msgid "11 caracters max."
+msgstr "11 caractères max."
+
+#: views/sms_campaign/step2.php:21
+msgid "Set this default sender name"
+msgstr "Définir comme nom d'expéditeur par défaut"
+
+#: views/sms_campaign/step2.php:25
+msgid "Show information"
+msgstr "Informations"
+
+#: views/sms_campaign/step2.php:36
+msgid "Without customisation"
+msgstr "Sans personnalisation"
+
+#: views/sms_campaign/step2.php:37
+msgid "SMS will be sent with 5 short numbers (ex. 36200)"
+msgstr "Les SMS seront envoyés avec 5 caractères courts (exemple: 36200)"
+
+#: views/sms_campaign/step2.php:39
+msgid "Your French recipients will be able to reply to this SMS."
+msgstr "Vos destinataires pourront répondre à ce SMS."
+
+#: views/sms_campaign/step3.php:15
+msgid "from your Wordpress users list"
+msgstr "dans votre liste d'utilisateurs Wordpress"
+
+#: views/sms_campaign/step3.php:27
+msgid "from your Spot-Hit users list"
+msgstr "dans votre liste de destinataires Spot-Hit"
+
+#: views/sms_campaign/step3.php:39
+msgid "Insert your numbers list manually"
+msgstr "Insérez manuellement votre liste de destinataires"
+
+#: views/sms_campaign/step4.php:7
+msgid "Insert your message"
+msgstr "Rédigez votre message"
+
+#: views/sms_campaign/step4.php:8
+msgid "Writing message"
+msgstr "Rédigez votre message"
+
+#: views/sms_campaign/step4.php:26
+msgid "caracters"
+msgstr "caractères"
+
+#: views/sms_campaign/step4.php:34
+msgid "Warning : "
+msgstr "Attention : "
+
+#: views/sms_campaign/step4.php:34
+msgid "The caracters |, ^, €, {, }, [, ~, ] count as doubles."
+msgstr "Les caractères |, ^, €, {, }, [, ~, ] comptent double."
+
+#: views/sms_campaign/step5.php:14
+msgid "SMS will be sent when the campaign is validated"
+msgstr "Les SMS seront envoyés suite à la validation de la campagne"
+
+#: views/sms_campaign/step5.php:24
+msgid "Scheduled"
+msgstr "Programmé"
+
+#: views/sms_campaign/step5.php:25
+msgid "Select a datetime for sending"
+msgstr "Sélectionnez une date d'envoi"
+
+#~ msgid "Your telephone number..."
+#~ msgstr "Votre numéro de téléphone..."
+
+#~ msgid "Contact name"
+#~ msgstr "Nom du contact"
+
+#~ msgid "Contact first Name"
+#~ msgstr "Prénom du destinataire"
+
+#, fuzzy
+#~| msgid "Recipient address 1"
+#~ msgid "Contact address 1"
+#~ msgstr "Adresse 1 du destinataire"
+
+#, fuzzy
+#~| msgid "Recipient address 2"
+#~ msgid "Contact address 2"
+#~ msgstr "Adresse 2 du destinataire"
+
+#~ msgid "Contact city"
+#~ msgstr "Ville du destinataire"
+
+#~ msgid "Contact postcode"
+#~ msgstr "Adresse postale du destinataire"
+
+#~ msgid "Contact country"
+#~ msgstr "Pays du destinataire"
+
+#~ msgid "recipients"
+#~ msgstr "destinataires"
+
+#~ msgid "recipient"
+#~ msgstr "destinataire"
+
+#~ msgid "No recipient"
+#~ msgstr "Aucun destinataire"
+
+#~ msgid "Please, select a recipients method"
+#~ msgstr "Veuillez sélectionner une méthode pour les destinataires"
+
+#~ msgid "Select a recipients group"
+#~ msgstr "Sélectionnez vos groupes de destinataires"
+
+#~ msgid "Invalid recipient number"
+#~ msgstr "Numéro de destinataire invalide"
+
+#~ msgid "Insert your recipients list"
+#~ msgstr "Insérez votre liste de destinataires"
+
+#~ msgid "Insert your recipients list here"
+#~ msgstr "Insérez votre liste de destinataires juste ici"
+
+#~ msgid "Invalid recipient email address"
+#~ msgstr "Email du destinataire invalide"
+
+#~ msgid "Summary"
+#~ msgstr "Récapitulatif"
+
+#~ msgid "Sent now"
+#~ msgstr "Envoyer maintenant"
+
+#~ msgid "Recipients"
+#~ msgstr "Destinataires"
+
+#~ msgid "Select recipients"
+#~ msgstr "Sélection des destinataires"
+
+#~ msgid "Recipient"
+#~ msgstr "Destinataire"
+
+#~ msgid "API key parameter"
+#~ msgstr "Paramètres de la clé API"
+
+#~ msgid "SMS parameter"
+#~ msgstr "Paramètres SMS"
+
+#~ msgid "EMAIL parameter"
+#~ msgstr "Paramètres EMAILS"
+
+#~ msgid "Alerts parameter"
+#~ msgstr "Paramètres des alertes"
+
+#~ msgid "Not visible to your recipients"
+#~ msgstr "N'est pas visible par les destinataires"
+
+#~ msgid ""
+#~ "We are using optimized domain names for optimum reception to mailbox "
+#~ "providers (Outlook, Hotmail,\n"
+#~ "                                                                Gmail...).\n"
+#~ "                                                                <br>\n"
+#~ "                                                                They are "
+#~ "the 3 areas we using : \n"
+#~ "                                                                <br> \n"
+#~ "                                                                @n1xmail."
+#~ "com<br>\n"
+#~ "                                                                @m1xmail."
+#~ "com<br>\n"
+#~ "                                                                @m2xmail."
+#~ "com<br>"
+#~ msgstr ""
+#~ "Nous utilisons des noms de domaine optimisés pour optimiser la récéption "
+#~ "vers les boites mails des différentes fournisseurs (Outlook, Hotmail, "
+#~ "Gmail ...)<br>\n"
+#~ "They are the 3 areas we using : <br> \n"
+#~ "@n1xmail.com<br>\n"
+#~ "@m1xmail.com<br>\n"
+#~ "@m2xmail.com<br>"
+
+#~ msgid "Please, write your API key"
+#~ msgstr "Veuillez renseigner une clé API"
+
+#~ msgid "Correct key, redirect to dashboard..."
+#~ msgstr "Connexion réussie, vous allez être redirigé..."
+
+#~ msgid " Failed"
+#~ msgstr " Échoué"
+
+#~ msgid "Please insert your new api key on the field"
+#~ msgstr "Veuillez insérer votre nouvelle clé API dans ce champ"
+
+#~ msgid "Sender name is incorrect"
+#~ msgstr "Nom d'expéditeur incorrect"
+
+#~ msgid "I don't know my API key"
+#~ msgstr "Je ne connais pas ma clé API"
+
+#~ msgid "max. 11 characters"
+#~ msgstr "11 caractères maximum"
+
+#~ msgid "Scale"
+#~ msgstr "Barème"
+
+#~ msgid "<p>You don't have any recipient group</p>"
+#~ msgstr "<p>Vous n'avez pas de groupe de destinataires</p>"
+
+#~ msgid "You don't have any recipient group"
+#~ msgstr "Vous n'avez pas de groupes de destinataires"
+
+#~ msgid "Please, write your API key in the field"
+#~ msgstr "Veuillez inscrire une clé API dans le champ"
+
+#~ msgid "Save this sender name"
+#~ msgstr "Enregistrer ce nom d'expéditeur"
+
+#~ msgid "Show restrictions"
+#~ msgstr "Afficher les restrictions"
+
+#~ msgid "Stop at 36200"
+#~ msgstr "STOP au 36200"
+
+#~ msgid "Start a new SMS campaign"
+#~ msgstr "Démarrer une nouvelle campagne SMS"
+
+#~ msgid "Start a new EMAIL campaign"
+#~ msgstr "Démarrer une nouvelle campagne EMAIL"
+
+#~ msgid "Credits"
+#~ msgstr "Crédits"
+
+#~ msgid "Already registered"
+#~ msgstr "Déjà enregistré"
+
+#~ msgid "Write your API key here..."
+#~ msgstr "Insérez votre clé API..."
+
+#~ msgid "Connection"
+#~ msgstr "Connexion"
+
+#~ msgid "You don't have a Spot-Hit account ?"
+#~ msgstr "Vous n'êtes pas encore inscrit ?"
+
+#~ msgid "Database save error !"
+#~ msgstr "Impossible d'enregistrer en base de données !"
+
+#~ msgid " is on hold"
+#~ msgstr " est en attente"
+
+#~ msgid "Invalid API key, please try again"
+#~ msgstr "Clé API invalide, veuillez rééssayer"
+
+#~ msgid "Apply these changes to all automatic campaigns ?"
+#~ msgstr ""
+#~ "Appliquer les modifications pour toutes les campagnes automatiques ?"
+
+#~ msgid "Default send email address"
+#~ msgstr "Adresse Email par défaut"
+
+#~ msgid ""
+#~ "<p><strong>Important :</strong></p><p>Variables that we propose to you "
+#~ "may not be functional. Indeed, depending on the configuration of your "
+#~ "store, some variables may return an empty result. You are strongly "
+#~ "advised to carry out tests before use.</p><p><strong>Our advice:</"
+#~ "strong></p><p>While available, the ability to text new users depends on "
+#~ "how you set up subscriptions on your site. The variable will work in "
+#~ "these cases:</p><p>-Phone number required when registering via the form "
+#~ "provided by WooCommerce.</p><p>-Phone number accessible in the \"data\" "
+#~ "object of the user, with the \"phone\" key</p><p>To obtain more user "
+#~ "informations, use Billing variables rather than Shipping variables</p>"
+#~ msgstr ""
+#~ "<p><strong>Attention :</strong></p><p>Il est possible que le résultat des "
+#~ "variables soient vide en fonction de la configuration de votre boutique. "
+#~ "Nous vous recommandons d'effectuer un test d'envoi au préalable.</p>"
+
+#~ msgid "I can't find my API key"
+#~ msgstr "Je ne connais pas ma clé API"
+
+#~ msgid "Use default sender Email"
+#~ msgstr "Utiliser l'adresse Email de l'expéditeur par défaut"
+
+#~ msgid "I forgot my API key"
+#~ msgstr "J'ai oublié ma clé"
+
+#~ msgid "Apply these changes to all automatic campaigns?"
+#~ msgstr "Appliquer les changements aux campagnes automatiques ?"
+
+#~ msgid "Hello !"
+#~ msgstr "slt"
+
+#~ msgid "Hi !"
+#~ msgstr "Slt !"
+
+#~ msgid "How are you ?"
+#~ msgstr "HAY ?"
+
+#~ msgid "__"
+#~ msgstr "testttt"

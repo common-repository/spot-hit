@@ -1,0 +1,128 @@
+.widget-settings-block {
+
+    .multi-block {
+        position: relative;
+        background-color: white;
+        padding: 0;
+        margin: 1em;
+        width: 30%;
+        min-width: 50px;
+        border-radius: 20px;
+        @extend %shadow-out;
+
+        &:hover {
+            cursor: pointer;
+
+            .sh-widget-title {
+                background-color: $blue-secondary;
+            }
+
+
+        }
+
+        .thumbnail {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 200px;
+
+
+            .alerts_icon {
+                font-size: 5em;
+                color: $blue-primary;
+            }
+        }
+
+        .sh-widget-title {
+            background-color: $blue-primary;
+            border-radius: 0 0 20px 20px;
+            height: 6em;
+            padding: 1em;
+
+            h3 {
+                color: white;
+                font-size: 1.5em;
+            }
+        }
+    }
+
+    .settings-box__link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+#settingsModal {
+
+    h3 {
+        font-size: 20px;
+        font-weight: 300;
+        background-color: $blue-secondary;
+        border-radius: 5px;
+        padding: 0.5em;
+        color: white;
+    }
+
+    h4 {
+        font-size: 20px;
+        font-weight: 300;
+        padding: 0.5em;
+        color: $blue-primary;
+    }
+
+    .modal-content {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .modal__info {
+        div {
+            display: flex;
+
+            &:nth-child(1) {
+                justify-content: end;
+            }
+
+            &:nth-child(2) {
+                align-items: center;
+            }
+        }
+
+    }
+}
+
+
+#widget_group_selection {
+    padding: 20px 10px 10px 10px;
+    margin: 0;
+    background-color: #F0F0F1;
+    min-height: 50px;
+    min-width: 200px;
+    border-radius: 10px;
+
+    label.multi_select_label {
+        margin-bottom: 10px;
+        display: block;
+
+        .group_checkbox {
+            display: none;
+        }
+
+        .multi_select_label_content {
+            display: flex;
+            justify-content: space-between;
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 10px;
+            width: 100%;
+        }
+
+        .group_checkbox:checked+div.multi_select_label_content {
+            background-color: #43CD43;
+            color: #fff;
+        }
+    }
+}

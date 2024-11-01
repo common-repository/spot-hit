@@ -1,0 +1,62 @@
+#spothit__login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 80vh;
+
+    .spothit_content {
+        width: 640px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        min-height: fit-content;
+        padding: 5% ;
+
+        #spothit_form  {
+            * {
+                margin: 0.5em 0;
+            }
+
+            a {
+                font-size: 14px;
+                font-weight: 400px;
+                display: block;
+                text-decoration: none;
+                color: $blue-primary;
+                text-align: right;
+            }
+
+            input[type=text] {
+                height: 3em;
+            }
+        }
+
+        .page_title {
+            h2 {
+                font-weight: 300;
+                font-size: 36px;
+            }
+        }
+
+        p {
+            color: grey;
+        }
+
+        button {
+            width: 100%;
+        }
+
+        a {
+
+                font-size: 14px;
+                font-weight: 400px;
+                display: block;
+                text-decoration: none;
+                color: $blue-primary;
+        }
+    }
+}

@@ -1,0 +1,124 @@
+/* SWITCHES */
+
+.switch-label {
+  white-space: nowrap;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.switch-label,
+.switch-btn-container,
+.switch-text-container {
+  position: relative;
+  display: inline-block;
+}
+
+.switch-label-flex {
+  position: relative;
+}
+
+.switch-btn-container,
+.switch-text-container {
+  font-size: 0;
+  vertical-align: top;
+  height: 34px;
+}
+
+.switch-bg {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ddd;
+  width: 60px;
+  height: 34px;
+  border-radius: 17px;
+  transition: all 0.3s;
+}
+
+.switch-btn {
+  display: inline-block;
+  position: absolute;
+  left: 3px;
+  right: auto;
+  top: 3px;
+  background-color: #fff;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.switch-text {
+  position: relative;
+  display: block;
+  top: 7px;
+  margin-left: 5px;
+  margin-right: 15px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #999;
+  cursor: pointer;
+}
+
+input.switch-input:checked~.switch-text-container .switch-text {
+  color: $blue-primary;
+}
+
+input.switch-input {
+  display: none;
+}
+
+input.switch-input:checked~.switch-btn-container .switch-bg {
+  background-color: $blue-primary;
+}
+
+input.switch-input:checked~.switch-btn-container .switch-bg .switch-btn {
+  right: 3px;
+  left: auto;
+}
+
+.switch-with-text .switch-bg{
+  width: auto;
+  background-color: $red-danger;
+}
+
+.switch-with-text .switch-bg-text{
+  display: none;
+  top: 0;
+  left: 0;
+  color: #fff;
+  font-size: 12px;
+  height: 34px;
+  line-height: 34px;
+  z-index: 2;
+  padding-left: 15px;
+  padding-right: 40px;
+}
+
+.switch-with-text .switch-bg-text-inactive{
+  padding-left: 40px;
+  padding-right: 15px;
+  display: inline-block;
+}
+
+.switch-with-text input.switch-input:checked~.switch-btn-container .switch-bg {
+  background-color: $green-success;
+}
+.switch-with-text input.switch-input:disabled~.switch-btn-container .switch-bg {
+  background-color: $grey-extralight;
+}
+
+.switch-with-text input.switch-input:checked~.switch-btn-container .switch-bg .switch-btn{
+  right: 3px;
+  left: auto;
+}
+
+.switch-with-text input.switch-input:checked~.switch-btn-container .switch-bg .switch-bg-text-active{
+  display: inline-block;
+}
+
+.switch-with-text input.switch-input:checked~.switch-btn-container .switch-bg .switch-bg-text-inactive{
+  display: none;
+}

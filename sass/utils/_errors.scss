@@ -1,0 +1,10 @@
+#spothit_errors  {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    flex-wrap: wrap;
+    position: fixed;
+    bottom: 2em;
+    right: 3em;
+}

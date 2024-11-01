@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "spothit/widget",
+	"version": "0.1.0",
+	"category": "widget",
+	"icon": "testimonial",
+	"description": "Formulaire Spot-Hit, permettant l'enregistrement des utilisateurs dans vos contacts Spot-Hit.",
+	"attributes": {
+		"title": {
+			"type": "string"
+		},
+		"show_description": {
+			"type": "boolean"
+		},
+		"description_text": {
+			"type": "string"
+		},
+		"fields": {
+			"type": "string"
+		},
+		"button_text": {
+			"type": "string"
+		},
+		"style": {
+			"type": "string"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "spothit",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

@@ -1,0 +1,48 @@
+.multi_box input[type=radio].radio_choice {
+    display: none;
+
+    &:checked {
+        +label.multi_box_label {
+            border-color: $blue-primary !important;
+
+            .input_icon {
+                color: $blue-primary !important;
+            }
+        }
+    }
+
+}
+
+.multi_select input[type=checkbox].contact_checkbox {
+    display: none;
+
+    &.contact_checkbox {
+        +div.multi_select_label_content {
+            display: flex;
+            justify-content: space-between;
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 10px;
+            width: 100%;
+        }
+
+        &:checked {
+            +div.multi_select_label_content {
+                background-color: $green-success;
+
+                span {
+                    color: #fff;
+                }
+
+                .badge {
+                    background-color: white !important;
+                    color: $grey-secondary !important;
+                }
+
+            }
+
+        }
+
+    }
+
+}

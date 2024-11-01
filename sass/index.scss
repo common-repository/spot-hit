@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import "./utils/variables";
+@import "./components/smartphone";
+@import "./components/box";
+@import "./components/loader";
+@import "./components/notification";
+@import "./layout/navbar";
+@import "./layout/settings";
+@import "./layout/main";
+@import "./layout/dashboard";
+@import "./layout/purchase";
+@import "./layout/login";
+@import "./utils/slugs";
+@import "./utils/elements";
+@import "./utils/switches";
+@import "./utils/errors";
+
+.spothit_header {
+  background-color: white;
+  width: 100%;
+
+  h1 {
+    font-size: 36px;
+    font-weight: 300;
+  }
+}
+
+.spothit_main {
+  min-width: 960px;
+}
+
+.page_title_container{
+  padding: 15px 30px;
+  background-color: #fff;
+
+  p {
+    font-size: 100px;
+  }
+}
+
+.page_content_container{
+  padding: 15px 30px;
+}
+
+#spothit_breadcramp {
+  margin-top: 30px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    min-width: 100px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      left: 0;
+      top: 25px;
+      background-color: $blue-primary;
+      z-index: 8;
+    }
+
+    span {
+      &:hover {
+        cursor: pointer;
+      }
+      &:first-of-type {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+        width: 50px;
+        height: 50px;
+        border: solid 1px;
+        border-color: $blue-primary;
+        color: $blue-primary;
+        background-color: $grey-background;
+        z-index: 9;
+      }
+
+      &:last-of-type {
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+      }
+    }
+
+    &.active {
+      span:first-of-type {
+        background-color: $blue-primary!important;
+        color: white !important;
+      }
+    }
+  }
+}
+
+

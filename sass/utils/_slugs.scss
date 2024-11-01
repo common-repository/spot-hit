@@ -1,0 +1,20 @@
+%shadow-out{
+  -webkit-box-shadow: 0px 10px 10px 5px #0000001A;
+  box-shadow: 0px 10px 10px 5px #0000001A;
+}
+
+%shadow-out-small{
+  -webkit-box-shadow: 0px 5px 5px 5px #0000001A;
+  box-shadow: 3px 3px 5px 0px #0000001A;
+}
+
+%shadow-in {
+    -webkit-box-shadow: inset 0px 2px 4px 0px #0000001A;
+    box-shadow: inset 0px 2px 4px 0px #0000001A;
+}
+
+%shadow-right {
+  -webkit-box-shadow: 10px 5px 30px 0px #0000001A;
+  box-shadow: 10px 5px 30px 0px #0000001A;
+}
+

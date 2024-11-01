@@ -1,0 +1,49 @@
+#app_spothit {
+  nav.navbar {
+    display: flex;
+    align-items: center;
+    height: 68px;
+    width: 100vw;
+    background-color: $blue-primary;
+    & li{
+      margin: 0 10px;
+    }
+    & .link {
+        text-decoration: none;
+        color: white;
+    }   
+    & .navbar-text{
+        margin: 0 10px;
+        color: white;
+    }
+    & .navbar-toggler{
+      border-color: #fff;
+    }
+
+    
+  }
+  .navbar-actions a{
+    font-size: 30px;
+    color: #fff;
+    margin: 0 10px;
+  }
+  .navbar-collapse{
+    background-color: $blue-primary;
+  }
+}
+
+
+#app_spothit{
+  .nav-tabs{
+    border-bottom: 1px solid #eee;
+  }
+  .nav-tabs .nav-link{
+    line-height: 34px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  .nav-tabs .nav-link:not(.active){
+    background-color: #eee;
+    color: #aaa;
+  }
+}
